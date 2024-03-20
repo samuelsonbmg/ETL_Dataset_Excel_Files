@@ -1,6 +1,6 @@
 # ETL Project from Netflix Dataset
 
-Licensa
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/samuelsonbmg/ETL_Dataset_Excel_Files/blob/main/LICENSE)
 
 # Sobre o Projeto
 Trata-se de um projeto que tem por objetivo, realizar a análise de arquivos em formato excel, que foram disponibilizados em formato bruto, onde há a necessidade de realizar o agrupamento das informações contidas em todas as planilhas em apenas uma planilha final, que será utilizada para carga em um dashboard. (Ex. Power BI).
