@@ -12,13 +12,13 @@ import glob                 # Utilizado para busca massiva de arquivos em pastas
 # Localização onde estão salvos os arquivos brutos
 folder_path = 'src\\data\\raw'
 
-# Localização onde será saldo o arquivo final
+# Localização onde será salvo o arquivo final
 folder_ready = 'src\\data\\ready'
 
 # Define o nome do arquivo de saída
 output_file = os.path.join(folder_ready,'clean.xlsx')
 
-#Listas todos os arquivos existes na pasta raw
+# Listas todos os arquivos existes na pasta raw
 excel_files = glob.glob(os.path.join(folder_path,'*.xlsx'))
 
 if not excel_files:
@@ -26,7 +26,7 @@ if not excel_files:
     print("Nenhum arquivo foi encontrado!")
 
 else:
-    #Dataframe - tabela na memória para guardar o conteúdo dos arquivos
+    # Dataframe - tabela na memória para guardar o conteúdo dos arquivos
     dfs = []
 
     for excel_file in excel_files:
